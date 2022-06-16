@@ -4,8 +4,54 @@
     padding: 0;
 
 }
-.centratura{
-max-width: 1000px;
-margin: 0 auto;
+/* img{
+    max-width: 100%;
+} */
 
+
+
+.centratura {
+    max-width: 1000px;
+    margin: 50px auto;
+
+}
+
+.cards__section {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+
+/* selettore avanzato, tutto il contenuto di cards  */
+.cards__section>*{
+    margin-bottom: 20px;
+}
+
+.cards__title{
+    font-size: 50px;
+    color: red;
+}
+
+
+.cards{
+    width: calc(100% / 3);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    float: left;
+    border: 2 solid green;
+}
+
+img{
+    float: left;
+    width: calc(100% /3);
+    height: 60px;
+}
+a{
+    color: blue;
+}
+
+.cards__clearfix{
+    clear: both;
 }
